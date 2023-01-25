@@ -10,7 +10,21 @@ package printstudentdetails;
  * @author RuskiNibba
  */
 public class Student {
-
+    private String name;
+    private int age;
+    private int sid;
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
     /**
      * @return the name
      */
@@ -38,8 +52,6 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
-    private String name;
-    private int age;
 }
 
 
